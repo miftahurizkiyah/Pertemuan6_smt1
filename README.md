@@ -150,7 +150,10 @@ print('z')
 
 
 
-Hasil dari source code tersebut adalah :
+Hasil dari source code tersebut adalah :<br>
+![Output_End](pict/Part6_End.PNG)<br>
+
+
 
 
 <br>

@@ -13,7 +13,8 @@ DAFTAR ISI <br>
 | --- | ----- | -----|
 | 1 | Tugas Pertemuan 5 | [Tugas_pertemuan5](#pertemuan-5---tugas-bahasa-pemrograman)
 | 2 | Tugas Pertemuan 6 Lab 1| [Tugas_Part6_Lab1](#pertemuan-6---lab-1)
-| 3 | Tugas pertemuan 6 Lab 2| [Tugas_Part6_Lab2](#pertemuan-6---lab-2)
+| 3 | Tugas pertemuan 6 Lab 1-2| [Tugas_Part6_Lab1-2](#pertemuan-6---lab-1-2)
+| 4 | Tugas Pertemuan 6 Lab 2| [Tugas_part6_Lab2](#pertemuan-6---lab-2)
 <br>
 
 
@@ -254,14 +255,65 @@ Hasil dari source code diatas akan muncul seperti : <br>
 Untuk hasil dari string Format 2 adalah :<br>
 ![OUtput_String_Format_2](pict/Part6_string_format2.PNG)
 
- 
 
-
-<br>
----
-<br>
+<br><hr><br>
 
 ## Pertemuan 6 - Lab 2
+* Konversi Nilai Variable<br>
+Untuk pembahasan terakhir, akan menyelesaikan tugas lab 2 dari Dosen. yaitu Konversi Nilai Variable<br>
+Tugas yang diberikan oleh dosen adalah seperti gambar dibawah ini :<br>
+![Picture_Lab2](pict/Part6_Lab2.PNG)<br>
+``` python
+a=(input("masukkan nilai a:"))
+b=(input("masukkan nilai b:"))
+print("variable a=",a)
+print("variable b=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+<br>
+saya menemukan error saat menjalankan source code tersebut, seperti gambar dibawah ini :<br>
+
+![Error1_Lab2](pict/Error_Lab2.PNG)<br>
+Kita akan membaca error yang telah terjadi.<br>
+> ***TypeError: %d format: a number is required, not str*** <br>
+
+
+Pada error tersebut terbaca bahwa variable a adalah string, yang seharusnya dibaca oleh system adalah number / interger.<br>
+**Bagaimana cara kita memperbaiki error tersebut** <br>
+Kita lihat pada baris ke 5 (di notifikasi terbaca bahwa error terletak pada baris ke 5), yaitu pada pemformatan **.format()** adalah interger, sedangkan jika berupa string maka akan ada tanda petik dua ("..") pada pemformatan **.format()** <br>
+Kita akan fokus pada variable a dan b. <br>
+Pada line 1 tertulis syntax : *a=input("Masukan Nilai A : ")* <br>
+Sedangkan pada line 2 tertulis syntax : *b=input("Masukan Nilai B : )* <br>
+Untuk membuat inputan berupa interger / angka harus ditambahkan syntax int() pada format input(). yang harus nya dituliskan adalah : <br>
+``` python
+a=int(input("masukkan nilai a:"))
+b=int(input("masukkan nilai b:"))
+```
+<br>
+
+Kita akan ulangi semua syntax pada file ini :
+
+``` python
+a=int(input("masukkan nilai a:"))
+b=int(input("masukkan nilai b:"))
+print("variable a=",a)
+print("variable b=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+Kita akan coba **Run** kembali file tersebut, maka akan muncul seperti gambar dibawah ini : <br>
+![Fixed_error_Lab2](pict/Part6_lab2_fixed.PNG)
 
 
 

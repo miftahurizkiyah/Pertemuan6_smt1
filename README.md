@@ -107,7 +107,7 @@ Hasil dari output tersebut adalah :
 ## Pertemuan 6 - Lab 1
 
 Pada tugas pertemuan 6 - Lab 1 saya diberikan tugas oleh dosen untuk mempelajari OPerator Aritmatika menggunakan bahasa pemrograman python. Berikut source code yang diberikan oleh Dosen :
-![Pertemuan6_Lab1](pict/part6_Lab1.PNG)<br>
+![Pertemuan6_Lab1](pict/Part6_Lab1.PNG)<br>
 ```python
 #penggunaan end
 print('A', end='')

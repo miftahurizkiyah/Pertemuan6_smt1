@@ -320,8 +320,8 @@ Setelah semua file berhasil disimpandan dijalankan, maka selesai sudah Tugas Per
 
 
 ### ========== THANKS YOU ========== <br>
-### ***MIFTAHU RIZKIYAH / 312010014 / TI.20.B.1 <br>
-### =============================== <br>
+### ***MIFTAHU RIZKIYAH / 312010014 / TI.20.B.1*** <br>
+### ============================== <br>
 
 
 

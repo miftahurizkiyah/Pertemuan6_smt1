@@ -57,7 +57,7 @@ print("Please enter full name : ")
 ```
 source code diatas berfungsi untuk mencetak hasil / output berupa "***Please enter full name :***" <br>
 untuk menampilkan input string, saya menggunakan *tanda petik dua* didalam fungsi input(), sedangkan jika saya ingin menampilkan output/hasil berupa angka/interger saya tidak perlu menggunakan *tanda petik dua*. contohnya :
-```python
+``` python
 print("Nama saya adalah ...")
 print(12345)
 ```
@@ -65,7 +65,7 @@ print(12345)
 
 ![Output fungsi print](pict/output_print.PNG)<br>
 * untuk source code berikutnya adalah inputan atau membuat variable, seperti syntax dibawah ini :
-```python
+``` python
 fullname=input()
 ```
 Ket : <br>
@@ -79,7 +79,7 @@ Pada gambar diatas hasil dari inputan tersebut berwarna **hijau**<br><br>
 <br>
 * Langkah kali ini saya akan menampilkan output yang diminta oleh Dosen,<br>
 Output pertama yang diminta dosen adalah menampilkan salam, yaitu dengan mengetikan syntax/source code berikut :
-```python
+``` python
 print("\n\n Assalamu'alaikum")
 ```
 Ket :
@@ -88,7 +88,7 @@ Ket :
 Hasil dari source code diatas adalah seperti gambar dibawah ini :
 ![Output_Salam](pict/Assalamu'alaikum.PNG)<br><br>
 *Langkah terakhir adalah menampilkan dari semua inputan diatas. Dengan mengetikkan source code berikut : <br>
-```python
+``` python
 print("\nAssalamualaikum Wr, Wb.")
 print(f"\nLet me introduce my self. My name is {fullname}, but you can call me {nickname}. My NPM is {NPM}. I was Born in {bornplace} and i am {age} years old. I am very glad if you want to invite my house in {address}. So, don't forget to call me before with the number {phonenumber}.")
 print("\nThank you.")
@@ -108,7 +108,7 @@ Hasil dari output tersebut adalah :
 
 Pada tugas pertemuan 6 - Lab 1 saya diberikan tugas oleh dosen untuk mempelajari OPerator Aritmatika menggunakan bahasa pemrograman python. Berikut source code yang diberikan oleh Dosen :
 ![Pertemuan6_Lab1](pict/Part6_Lab1.PNG)<br>
-```python
+``` python
 #penggunaan end
 print('A', end='')
 print('B', end='')
@@ -130,19 +130,19 @@ Kali ini saya akan menjelaskan materi yang diberikan oleh Dosen.<br>
 
 *Penggunaan End
 Penggunaan End digunakan untuk menambahkan karakter yang dicetak diakhir baris. Secara default penggunaan End adalah untuk ganti baris
-```python
+``` python
 print('A', end='')
 print('B', end='')
 print('C', end='')
 ```
 
 > Penggunaan print() digunakan untuk mencetak output, seperti syntax dibawah ini :
-```python
+``` python
 print()
 ```
 
 > Syntax dibawah ini digunakan untuk output berupa string
-```python
+``` python
 print('X')
 print('Y')
 print('z')
@@ -157,23 +157,23 @@ Hasil dari source code tersebut adalah :<br>
 Separator adalah pemisah yang befungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanpa spasi.<br>
 
 >Pendeklarasian beberapa variable beserta nilainya
-```python
+``` python
 w, x, y, z = 10, 15, 20, 25
 ```
 >Menampilkan hasil untuk tiap variable dengan menggunakan pemisah koma ( , )
-```python
+``` python
 print(w, x, y, z, sep=',')
 ```
 >Menampilkan hasil untuk tiap variable tanpa menggunakan pemisah
-```python
+``` python
 print(w, x, y, z, sep='')
 ```
 >Menampilkan hasil untuk tiap variable dengan menggunakan pemisah titik dua ( : )
-```python
+``` python
 print(w, x, y, z, sep=':')
 ```
 >Menampilkan hasil untuk tiap variable dengan menggunakan pemisah strip/ dash ( ----- )
-```python
+``` python
 print(w, x, y, z, sep='-----')
 ```
 
@@ -190,7 +190,7 @@ String formatting memungkinkan kita menyuntikan item kedalam string dari pada ki
 Penggunaan source code yang diberikan oleh Dosen adalah :<br>
 ![Part6_Lab1_String_format](pict/Part6_string_format.PNG)<br>
 
-```python
+``` python
 #string format
 print(0, 10**0)
 print(1, 10**1)
@@ -234,6 +234,28 @@ Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pagkat 10, dengan outp
 Pada syntax / source code string format 2 akan menampilkan output 2 output'an juga, (seperti string format 1, yaitu kanan dan kiri)<br>
 Dengan ketentuan : <br>
 > Aligment, padding, precesion dengan **format()** dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan atau kiri, parameter pembulatan dan banyak lagi. contoh lain seperti berikut :
+``` python
+print('{0:8} | {1:9}'.format('Buah'.'Jumlah'))
+print('{0:8} | {1:9}'.format('Anggur'.3.))
+print('{0:8} | {1:9}'.format('Apel'.10))
+```
+
+Hasil dari source code diatas adalah :
+![Contoh_Aligment](pict/Contoh_1.PNG)
+>Secara Default, ***.format()*** menggunakan rata text ke kiri, angka ke kanan. Kita dapat menggunakan opsi opsional <,^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam menggunakan ***.format()*** sebagai berikut : <br>
+``` python
+print('{:<40}{:^40}{:>40}'.format(Kiri','Tengah','Kanan''))
+print('{:<40}{:^40}{:>40}'.format(15,45,55))
+```
+
+Hasil dari source code diatas akan muncul seperti : <br>
+![Output_Aligment](pict/Contoh_2.PNG)
+<br><br>
+Untuk hasil dari string Format 2 adalah :<br>
+![OUtput_String_Format_2](pict/Part6_string_format2.PNG)
+
+ 
+
 
 <br>
 ---

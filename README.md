@@ -1,15 +1,19 @@
-# Pertemuan6_smt1_Tugas Bahasa Pemrograman
+# Pertemuan6_ Tugas Bahasa Pemrograman
 
 Repository ini dibuat untuk memenuhi tugas bahasa pemrograman pertemuan 6 <br> <br>
-Nama : Miftahu Rizkiyah<br>
+Nama : Miftahu Rizkiyah
 
 NIM  : 312010014
 
-Kelas : TI.20.B.1<br><br>
+Kelas : TI.20.B.1
+<br>
+============================
+<br>
+
 
 ## Pertemuan 5 - Tugas Bahasa Pemrograman
 
-Pada pertemuan 5 Bahasa Pemrograman saya diberikan tugas oleh dosen untuk membuat aplikasi biodata python (seperti gambar dibawah ini)
+Pada pertemuan 5 Bahasa Pemrograman saya diberikan tugas oleh dosen untuk membuat aplikasi biodata dengan python (seperti gambar dibawah ini)
 ![Tugas_5](pict/Tugas_Part5.PNG)<br>
 saat ini saya akan menjelaskan hasil dari tugas tersebut.<br>
 Berikut *source code* nya atau klik link berikut ( [Tugas_5 python](tugas_p5.py) ): <br>
@@ -45,8 +49,21 @@ Berikut penjelasannya :<br>
 ``` python
 print("Please enter full name : ")
 ```
-source code diatas berfungsi untuk mencetak hasil / output berupa "**Please enter your full name :**" (Seperti gambar dibawah ini)<br>
+source code diatas berfungsi untuk mencetak hasil / output berupa "***Please enter full name :***" (Seperti gambar dibawah ini)<br>
 ![Output fungsi print](pict/output_print.PNG)<br>
+* untuk source code berikutnya adalah inputan atau membuat variable, seperti syntax dibawah ini :
+```python
+fullname=input()
+```
+Ket : <br>
+-Variable adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan yang berfungsi sebagai variable dalam source code diatas adalah ***fullname***.
+-Fungsi **input()* adalah untuk memasukan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)*<br>
+<br>
+
+![input](pict/Input_Nama.PNG)<br>
+Pada gambar diatas hasil dari inputan tersebut berwarna **hijau**<br>
+
+
 
 
 

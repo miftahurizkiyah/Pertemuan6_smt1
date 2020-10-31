@@ -7,7 +7,11 @@ NIM  : 312010014
 
 Kelas : TI.20.B.1
 <br>
-============================
+==========================
+DAFTAR ISI <br>
+| No | Description | Link |
+| --- | ----- | -----|
+| 1 | Tugas Pertemuan 5 | [Tugas_pertemuan5](#pertemuan-5---tugas-bahasa-pemrograman)
 <br>
 
 
@@ -93,6 +97,19 @@ Ket :
 2. Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable<br>
 Hasil dari output tersebut adalah :
 ![Alloutput](pict/All_Output.PNG)
+
+<br>
+---
+<br>
+
+##Pertemuan 6 - Lab 1
+
+<br>
+---
+<br>
+
+##Pertemuan 6 - Lab 2
+
 
  
 

@@ -12,8 +12,8 @@ DAFTAR ISI <br>
 | No | Description | Link |
 | --- | ----- | -----|
 | 1 | Tugas Pertemuan 5 | [Tugas_pertemuan5](#pertemuan-5---tugas-bahasa-pemrograman)
-| 2 | Tugas Part 6 Lab 1| [Tugas_Part6_Lab1](#pertemuan-6---lab-1)
-| 3 | Tugas part 6 Lab 2| [Tugas_Part6_Lab2](#pertemuan-6---lab-2)
+| 2 | Tugas Pertemuan 6 Lab 1| [Tugas_Part6_Lab1](#pertemuan-6---lab-1)
+| 3 | Tugas pertemuan 6 Lab 2| [Tugas_Part6_Lab2](#pertemuan-6---lab-2)
 <br>
 
 
@@ -104,13 +104,13 @@ Hasil dari output tersebut adalah :
 ---
 <br>
 
-# Pertemuan 6 - Lab 1
+## Pertemuan 6 - Lab 1
 
 <br>
 ---
 <br>
 
-# Pertemuan 6 - Lab 2
+## Pertemuan 6 - Lab 2
 
 
  

@@ -179,7 +179,7 @@ print(w, x, y, z, sep='-----')
 
 Hasil dari syntax / source code diatas adalah :
 ![Output_Separator](pict/Part6_Separator.PNG)
-
+<br>
 
 <br>
 ---

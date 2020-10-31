@@ -102,13 +102,13 @@ Hasil dari output tersebut adalah :
 ---
 <br>
 
-##Pertemuan 6 - Lab 1
+## Pertemuan 6 - Lab 1
 
 <br>
 ---
 <br>
 
-##Pertemuan 6 - Lab 2
+## Pertemuan 6 - Lab 2
 
 
  

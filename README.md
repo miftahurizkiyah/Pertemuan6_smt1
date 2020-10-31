@@ -61,7 +61,10 @@ Ket : <br>
 <br>
 
 ![input](pict/Input_Nama.PNG)<br>
-Pada gambar diatas hasil dari inputan tersebut berwarna **hijau**<br>
+Pada gambar diatas hasil dari inputan tersebut berwarna **hijau**<br><br>
+-untuk memasukan perintah lain seperti **nick name, NPM, born place, age, home address, and phone number** mengikuti perintah yang sama seperti memasukan *fullname* <br>
+
+ 
 
 
 

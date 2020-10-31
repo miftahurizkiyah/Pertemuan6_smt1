@@ -153,6 +153,29 @@ print('z')
 Hasil dari source code tersebut adalah :<br>
 ![Output_End](pict/Part6_End.PNG)<br>
 
+*Penggunaan Separator
+Separator adalah pemisah yang befungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanpa spasi.<br>
+
+>Pendeklarasian beberapa variable beserta nilainya
+```python
+w, x, y, z = 10, 15, 20, 25
+```
+>Menampilkan hasil untuk tiap variable dengan menggunakan pemisah koma ( , )
+```python
+print(w, x, y, z, sep=',')
+```
+>Menampilkan hasil untuk tiap variable tanpa menggunakan pemisah
+```python
+print(w, x, y, z, sep='')
+```
+>Menampilkan hasil untuk tiap variable dengan menggunakan pemisah titik dua ( : )
+```python
+print(w, x, y, z, sep=':')
+```
+>Menampilkan hasil untuk tiap variable dengan menggunakan pemisah strip/ dash ( ----- )
+```python
+print(w, x, y, z, sep='-----')
+```
 
 
 

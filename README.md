@@ -184,9 +184,11 @@ Hasil dari syntax / source code diatas adalah :
 
 ## pertemuan 6 - Lab 1-2
 
-*String formatting memungkinkan kita menyuntikan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
+*String format<br>
+String formatting memungkinkan kita menyuntikan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
 
-Penggunaan source code yang diberikan oleh Dosen adalah :
+Penggunaan source code yang diberikan oleh Dosen adalah :<br>
+![Part6_Lab1_String_format](pict/Part6_string_format.PNG)<br>
 
 ```python
 #string format
@@ -217,7 +219,21 @@ print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10))
 ```
+<br>
+Sekarang saya akan membahas satu persatu syntax yang telah diberikan oleh Dosen.<br>
 
+1. String format 1<br>
+Pada syntax / source code string format 1 akan menampilkan output 2 outputan.<br>
+Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga angka 10, sedangkan untuk sebelah kanan akan menampilkan operasi Aritmatika Pangkat.<br>
+Dengan ketentuan, Operasi pangkat dengan angka kiri sebagai pokok (Rumus : **[bintang dua] )<br>
+Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pagkat 10, dengan output sebagai berikut : <br>
+![Operasi Aritmatika Pangkat](pict/Part6_Lab1-2.PNG) <br>
+
+
+2. String format 2<br>
+Pada syntax / source code string format 2 akan menampilkan output 2 output'an juga, (seperti string format 1, yaitu kanan dan kiri)<br>
+Dengan ketentuan : <br>
+> Aligment, padding, precesion dengan **format()** dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan atau kiri, parameter pembulatan dan banyak lagi. contoh lain seperti berikut :
 
 <br>
 ---

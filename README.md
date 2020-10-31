@@ -106,6 +106,53 @@ Hasil dari output tersebut adalah :
 
 ## Pertemuan 6 - Lab 1
 
+Pada tugas pertemuan 6 - Lab 1 saya diberikan tugas oleh dosen untuk mempelajari OPerator Aritmatika menggunakan bahasa pemrograman python. Berikut source code yang diberikan oleh Dosen :
+![Pertemuan6_Lab1](pict/part6_Lab1.PNG)<br>
+```python
+#penggunaan end
+print('A', end='')
+print('B', end='')
+print('C', end='')
+print()
+print('X')
+print('Y')
+print('z')
+
+#penggunaan separator
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='-----')
+```
+Kali ini saya akan menjelaskan materi yang diberikan oleh Dosen.<br>
+
+*Penggunaan End
+Penggunaan End digunakan untuk menambahkan karakter yang dicetak diakhir baris. Secara default penggunaan End adalah untuk ganti baris
+```python
+print('A', end='')
+print('B', end='')
+print('C', end='')
+```
+
+> Penggunaan print() digunakan untuk mencetak output, seperti syntax dibawah ini :
+```python
+print()
+```
+
+> Syntax dibawah ini digunakan untuk output berupa string
+```python
+print('X')
+print('Y')
+print('z')
+```
+
+
+
+Hasil dari source code tersebut adalah :
+
+
 <br>
 ---
 <br>

@@ -1,11 +1,11 @@
 # Pertemuan6_ Tugas Bahasa Pemrograman
 
 Repository ini dibuat untuk memenuhi tugas bahasa pemrograman pertemuan 6 <br> <br>
-Nama : Miftahu Rizkiyah
+***Nama : Miftahu Rizkiyah***
 
-NIM  : 312010014
+***NIM  : 312010014***
 
-Kelas : TI.20.B.1
+***Kelas : TI.20.B.1***
 <br>
 ==========================
 DAFTAR ISI <br>

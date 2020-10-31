@@ -319,8 +319,8 @@ Kita akan coba **Run** kembali file tersebut, maka akan muncul seperti gambar di
 Setelah semua file berhasil disimpandan dijalankan, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini. <br>
 
 
-### ========== THANKS YOU ========== <br>
-### ***MIFTAHU RIZKIYAH / 312010014 / TI.20.B.1*** <br>
+### ========== THANK YOU ========== <br>
+###  ***MIFTAHU RIZKIYAH / 312010014 / TI.20.B.1*** <br>
 ### ============================== <br>
 
 

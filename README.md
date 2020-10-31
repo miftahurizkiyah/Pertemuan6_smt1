@@ -262,7 +262,7 @@ Untuk hasil dari string Format 2 adalah :<br>
 * Konversi Nilai Variable<br>
 Untuk pembahasan terakhir, akan menyelesaikan tugas lab 2 dari Dosen. yaitu Konversi Nilai Variable<br>
 Tugas yang diberikan oleh dosen adalah seperti gambar dibawah ini :<br>
-![Picture_Lab2](pict/Part6_Lab2.PNG)<br>
+![Picture_Lab2](pict/part6_Lab2.PNG) <br>
 ``` python
 a=(input("masukkan nilai a:"))
 b=(input("masukkan nilai b:"))
@@ -313,7 +313,15 @@ print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
 print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 ```
 Kita akan coba **Run** kembali file tersebut, maka akan muncul seperti gambar dibawah ini : <br>
-![Fixed_error_Lab2](pict/Part6_lab2_fixed.PNG)
+![Fixed_error_lab6](pict/Part6_Fixed_lab2.PNG)
+<br><br>
+<hr>
+Setelah semua file berhasil disimpandan dijalankan, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini. <br>
+
+
+### ========== THANKS YOU ========== <br>
+### ***MIFTAHU RIZKIYAH / 312010014 / TI.20.B.1 <br>
+### =============================== <br>
 
 
 

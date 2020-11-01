@@ -1,6 +1,6 @@
 # Pertemuan6_ Tugas Bahasa Pemrograman
 
-Repository ini dibuat untuk memenuhi tugas bahasa pemrograman pertemuan 6 <br> <br>
+Repository ini dibuat untuk memenuhi tugas bahasa pemrograman pertemuan 6. <br> <br>
 ***Nama : Miftahu Rizkiyah***
 
 ***NIM  : 312010014***
@@ -319,7 +319,7 @@ Kita akan coba **Run** kembali file tersebut, maka akan muncul seperti gambar di
 ![Fixed_error_lab6](pict/Part6_Fixed_lab2.PNG)
 <br><br>
 <hr>
-Setelah semua file berhasil disimpandan dijalankan, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini. <br>
+Setelah semua file berhasil disimpan dan dijalankan, maka selesai sudah Tugas Pertemuan 6 - Bahasa Pemrograman kali ini. <br>
 
 
 ### ========== THANK YOU ========== <br>
